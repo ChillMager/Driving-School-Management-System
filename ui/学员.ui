@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget</class>
+ <widget class="QWidget" name="widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1236</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>学员</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>840</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>3</number>
+   </property>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>签到</string>
+    </attribute>
+    <widget class="QPushButton" name="button1">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>100</y>
+       <width>271</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>定位签到</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button1_3">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>100</y>
+       <width>271</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>手势签到</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button1_4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>350</y>
+       <width>271</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>验证码签到</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button1_5">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>350</y>
+       <width>271</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>拍照签到</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>0</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>请输入学员编号</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit_5">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>50</y>
+       <width>321</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="plainText">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>预约教练</string>
+    </attribute>
+    <widget class="QPlainTextEdit" name="textExit5">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>321</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>请输入教练编号</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button5">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>30</y>
+       <width>93</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>预约</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="table">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>70</y>
+       <width>1231</width>
+       <height>551</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>教练编号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>车辆编号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>教练姓名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>家庭地址</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>出生日期</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>电子邮箱</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>电话号码</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>性别</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>身份证号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>状态</string>
+      </property>
+     </column>
+    </widget>
+    <zorder>table</zorder>
+    <zorder>textExit5</zorder>
+    <zorder>button5</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string>查看练习进度</string>
+    </attribute>
+    <widget class="QPushButton" name="button5_2">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>30</y>
+       <width>93</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>查询</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="table_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>70</y>
+       <width>1200</width>
+       <height>551</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>学员编号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>练习项目编号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>练习时间</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>练习次数</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>练习地点</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>练习完成</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPlainTextEdit" name="textExit5_2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>321</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>请输入练习项目编号</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_8">
+    <attribute name="title">
+     <string>查看考试情况</string>
+    </attribute>
+    <widget class="QTableWidget" name="table_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>70</y>
+       <width>1200</width>
+       <height>551</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>教练编号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>练习时间</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>科目一培训时期</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>科目二培训日期</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>科目二完成学时</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>科目三完成学时</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>科目三培训日期</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>科目四完成学时</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>科目四培训日期</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="button5_3">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>20</y>
+       <width>93</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>查询</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
